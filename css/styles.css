@@ -219,6 +219,10 @@ width: 1158px;
     justify-content: space-between;
 }
 
+.features-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .features-item:not(:last-child) {
 margin-right: 24px;
 }
@@ -229,6 +233,7 @@ margin-right: 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .features-text {
@@ -325,7 +330,7 @@ border-radius: 0px 0px 4px 4px;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        margin-bottom: 8px;
+        margin-bottom: 72px;
 
 }
 
@@ -342,6 +347,7 @@ border-radius: 0px 0px 4px 4px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
         
 }
 .portfolio-content {
@@ -368,8 +374,8 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .footer-logo {
-    padding-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
