@@ -250,6 +250,7 @@ margin-right: 24px;
     background-color: #FFFFFF;
     padding-bottom: 32px;
     margin-bottom: 120px;
+
 }
 
 .team-title {
@@ -294,6 +295,7 @@ margin-right: 24px;
 
 .portfolio {
     background-color: #FFFFFF;
+
 }
 
 .portfolio-container {
@@ -321,6 +323,12 @@ margin-right: 24px;
 
 }
 
+.portfolio-card {
+    border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        padding-top: 32px;
+}
 
 .portfolio-name {
         font-weight: 500;
@@ -328,7 +336,7 @@ margin-right: 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        margin-top: 32px;
+        
 }
 .portfolio-content {
         font-weight: 400;
